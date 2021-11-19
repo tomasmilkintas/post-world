@@ -1,0 +1,17 @@
+.singlePost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singlePostSection {
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+    width: 90%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.postSpan {
+    font-style: italic;
+    font-weight: 500;
+}

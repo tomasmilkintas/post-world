@@ -1,0 +1,92 @@
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0rem 0 2rem;
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+    width: 90%;
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 1065px) {
+    .searchSection {
+        flex-direction: column;
+    }
+}
+
+.lighterWeight {
+    font-weight: 200;
+}
+
+.searchFilter {
+    margin: 20px 0;
+    width: 40%;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+@media (max-width: 1065px) {
+    .searchFilter {
+        width: 70%;
+    }
+}
+
+.sortingButtons {
+    display: flex;
+    margin-left: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.sortingButtons > button {
+    padding: 0.5vw;
+    margin: 0 5px;
+}
+
+.postsSection {
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+    width: 90%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.postsSection > h2 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.posts {
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+.postLink {
+    text-decoration: none;
+    font-weight: 500;
+    color: blue;
+}
+
+.postLink:hover {
+    color: rgb(14, 14, 149);
+}
+
+.postBody {
+    margin: 0.3vw 0;
+}
+
+.breakLine {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
